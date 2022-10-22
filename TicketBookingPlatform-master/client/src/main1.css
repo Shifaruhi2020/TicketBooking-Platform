@@ -1,0 +1,297 @@
+/* .body {
+    background: hsla(210, 20%, 90%, 1);
+    padding: 2em 0;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+   
+  }.card-box {
+    position: relative;
+    width: 300px;
+    height: 650px;
+    margin: 0 !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in;
+  }
+  .card-box:hover {
+    box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.2);
+  }
+  .card-box-header {
+    height: 40vh;
+  }
+  .card-box-header img {
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+  }
+  .card-box-content {
+    padding: 1rem;
+  }
+  .card-box-content .date {
+    font-size: 1rem;
+   
+    color: rgb(53, 38, 182);
+  }
+  .card-box-content h4 {
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+  }
+  .card-box-content h4 span {
+    color: rgb(163, 44, 44);
+    text-transform: uppercase;
+  }
+  .card-box-content p {
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 400;
+  }
+  .card-box-content p span{
+    color: rgb(13, 13, 155);
+  }
+  .card-box-content span{
+      font-size:1rem;
+      margin-bottom: 20px;
+      border: 1px solid #eee;
+      padding: 5px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+  }
+  .card-box-content .dates1 input{
+
+        width:160px;
+        margin-top: 10px;
+        margin-left: 30px;
+        height: 30px;
+      
+  }
+  .card-box-content-action {
+    position: absolute;
+    bottom: 0rem;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .card-box-content-action a {
+    text-decoration: none;
+    text-transform: capitalize;
+    
+  }
+
+.timer select{
+  margin-left: 30px;
+}
+
+
+
+
+
+  .card-box-content-action .circle-btn {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #eee;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    width: calc(30% - 4px);
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .card-box-content-action .circle-btn2 {
+    align-items: flex-end;
+    margin-left: 120px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #eee;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    width: calc(30% - 4px);
+    justify-content: center;
+    
+  }
+
+  .buttonss{
+    width:50px;
+    height:25px;
+    color: white;
+    background-color: rgb(32, 156, 32); 
+  }
+
+  select {
+    width: 170px;
+    padding: 5px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 2px;
+}
+ */
+
+
+
+
+
+
+.body {
+  background: hsla(210, 20%, 90%, 1);
+  padding: 2em 0;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}.card-box {
+  position: relative;
+  width: 300px;
+  height: 650px;
+  margin: 0 !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in;
+}
+.card-box:hover {
+  box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.2);
+}
+.card-box-header {
+  height: 40vh;
+}
+.card-box-header img {
+  height: 100%;
+  width: 100%;
+  object-fit:fill;
+}
+.card-box-content {
+  padding: 1rem;
+}
+.card-box-content .date {
+  font-size: 0.6rem;
+  opacity: 0.5;
+}
+.card-box-content h4 {
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+.card-box-content p {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+.card-box-content span{
+    font-size:1rem;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.card-box-content .dates1 input{
+
+      width:160px;
+      margin-top: 10px;
+      margin-left: 30px;
+      height: 30px;
+    
+}
+.card-box-content-action {
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.card-box-content-action a {
+  text-decoration: none;
+  text-transform: capitalize;
+  
+}
+
+.timer select{
+margin-left: 30px;
+}
+
+
+
+
+
+.card-box-content-action .circle-btn {
+  
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+ 
+  display: inline-block;
+  width: calc(30% - 4px);
+  justify-content: center;
+  align-items: center;
+
+}
+.card-box-content-action .circle-btn .but-90{
+  width: 40px;
+  height: 30px;
+  border: 1px solid #eee;
+ 
+  font-size: 20px;
+}
+
+.card-box-content-action .circle-btn2  {
+  align-items: flex-end;
+  margin-left: 120px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  width: calc(30% - 4px);
+  justify-content: center;
+  
+}
+.card-box-content-action .circle-btn2 .but-90{
+  width: 40px;
+  height: 30px;
+  border: 1px solid #eee;
+  width: calc(30% - 4px);
+  font-size: 20px;
+}
+
+.buttonss{
+  width:50px;
+  height:25px;
+  color: white;
+  background-color: rgb(32, 156, 32); 
+}
+
+select {
+  width: 170px;
+  padding: 5px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+ 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 2px;
+}

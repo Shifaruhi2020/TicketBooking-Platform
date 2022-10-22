@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+:root{
+  --popupBackground: #e0e0e050;
+  --color: #fcfcfc;
+  --colorSmooth: #e0e0e0;
+  --colorDark: #222;
+}
+
+
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+*, *:after, *:before{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+}
+body{
+  background-color:#ffffff;
+  flex-direction: column;
+  color: black;
+  display: flex;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+}
+label{
+  font-size: medium;
+  margin: 5px;
+}
+.main-input{
+  width:200px;
+  height: 25px;
+  background-color: #fdfdfd;
+  color: black;
+}
+.item{
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  margin:5px;
+}
+
+
+.seat{
+  margin:5px;
+  height: 40px;
+  display: inline ;
+  width:40px;
+  color:white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+  background-color: #444451;
+
+}
+h1{
+
+  font-weight: 350;
+  text-transform: capitalize;
+  color: rgb(30, 33, 189);
+ 
+
+  /* color:darkblue; */
+
+}
+.rowi{
+  color:darkred;
+
+}
+.screen{
+  /* background-color: rgb(141, 149, 150); */
+  background-color: rgb(142, 200, 219);
+  height: 50px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+   width:340px;
+   margin-top: 20px;
+   transform: skew(160deg); 
+
+}
+.eventname{
+
+  height: 70px;
+  width: 100%;
+  
+  color: rgb(155, 66, 66);
+  font-size: 25px;
+  text-align: left;
+  padding-left: 40px;
+  
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.eventname img{
+  height: 40px;
+}
+
+@media screen and (max-width:700px){
+  .eventname{
+    height: 40px;
+    font-size: 20px;
+    float:left;
+
+  }
+  .eventname img{
+    height: 35px;
+  }
+  
+}
+@media screen and (max-width:400px){
+  .eventname{
+    padding-left: 10px;
+  }
+
+}
+
+
+
+.App {
+  
+  align-items: center;
+  justify-content: center;
+ 
+  text-align: center;
+  color: white;
+  line-height: 40px;
+  perspective: 1000px;
+  margin-bottom: 30px;
+
+  height:730px;
+ 
+
+  background-color:gainsboro;
+  padding-top: 60px;
+
+}
+
+
+.occupied{
+  margin:5px;
+  height: 40px;
+  display: flexbox;
+  width:40px;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor:  not-allowed;
+  background-color: rgb(255, 158, 158);
+}
+ 
+select{
+  width:170px;
+  height:30px;
+  margin-left: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 2px;
+}
+
+
+
+
+.route{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  width: 200px;
+  /* margin-right: 220px; */
+  /* margin-left: 100px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 20px;
+
+}
+
+.route-back{
+  background-color:darkturquoise; /* Green */
+  border: none;
+  color: darkred;
+  padding: 8px 15px;
+  width: 100px;
+  font-weight: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 18px;
+  margin-right: 250px;
+  font-weight:20px;
+
+}
+.route-conf{
+  background-color:darkturquoise; /* Green */
+  border: none;
+  color:darkred;
+  padding: 8px 15px;
+  margin-right:30px;
+  margin-top:20px;
+  width: 100px;
+  /* margin-right: 220px; */
+  /* margin-left: 100px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 18px;
+  font-weight: 20px;
+
+}
+@media screen and (max-width:430px){
+  .screen{
+    width:100px;
+    height: 80px;
+  }
+   .route-back{
+     margin-right: 20px;
+   }
+   .route-conf{
+     width:100px;
+   }
+ 
+  
+}
+
+.logo{
+  padding-left: 20px;
+  align-items: center;
+  color:rgb(57, 229, 235) ;
+  padding-top: 14px;
+  vertical-align: middle;
+  font-style: inherit;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Login Page */
+
+.login-header h3{
+  color:rgb(18, 216, 223)
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.login-page .form .login{
+  margin-top: -31px;
+margin-bottom: 26px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #000000;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.selecteds{
+  margin-top: 20px;
+  color:brown;
+  display: flex;
+  font-size: 18px;
+
+  padding-inline-start: 0;
+  align-items: center;
+  justify-content: center;
+ list-style: none;
+}
+
+
+.selected{
+  display: none;
+
+}
+.selected.on{
+  display: inline-block;
+}
+.selected.on~.selected.on::before{
+  content: ',';
+}
+
+.selects{
+  /* display: flex; */
+  text-align: center;
+  padding-inline-start: 0;
+  
+ list-style: none;
+}
+
+.select{
+  display: none;
+
+}
+.select.on{
+  display: inline-block;
+}
+.select.on~.select.on::before{
+  content: ',';
+}
+.contact{
+  margin-top: 120px;
+  justify-content: center;
+  align-items: center;
+}
+.head{
+  font-size: 4vw;
+  color: #4c28e9da;
+  margin-left:500px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+
+
+.selectedDate{
+  margin-bottom: 100px;
+  margin-left: 100px;
+}
+.datename{
+  position: 90px;
+}

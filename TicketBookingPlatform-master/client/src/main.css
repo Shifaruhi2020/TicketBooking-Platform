@@ -1,0 +1,408 @@
+.book{
+    /* margin-top: 100px; */
+    align-items: center;
+   /* padding-top: 50px;  */
+   
+    justify-content: center;
+    /* background-color:burlywood; */
+    height: 700px;
+    color:black;
+   
+  
+  }
+  
+  .movieselect {
+    border: 10px;
+    border-color: red;
+    /* padding-left: 100px; */
+    
+    /* background-color: white; */
+    background: #f0f0f0;
+    
+    margin-top: 0px;
+    font-size: 28px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height:500px ;
+    
+  }
+
+  .movie{
+    border: 4px solid red;
+  }
+   .movieselect input{
+      width:150px;
+      height: 28px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+  }
+  .card-img-top{
+    height:300px;
+    width:250px;
+  }
+
+
+
+.row-des{
+    display: flexbox;
+    max-width: 1000px;
+    color:brown;
+    margin: auto;
+    overflow: auto;
+    font-size: 30px;
+    margin-top: 10px;
+    padding-top: 50px;
+    background: #f0f0f0;
+  }
+  
+  
+  .col-des{
+    float:left;
+    width: 50%;
+    padding: 5px;
+    padding-left: 120px;
+  
+  }
+  .col-des img:hover {
+    transform: scale(1.1, 1.1);
+  }
+
+
+  .property{
+    border:3px;
+    /* background-color: pink; */
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    font-size: 22px;
+
+    
+   
+  }
+  .form-group{
+    float: left;
+    margin-left: 120px;
+    height: 30px;
+   
+  
+  }
+  
+  .movname-des{
+    font-size: 40px;
+    text-align: center;
+    margin-right: 130px;
+  }
+  .property input{
+    width:130px;
+    height: 30px;
+    margin-left: 8px;
+    /* float:left; */
+  }
+  .form-des{
+    float: left;
+    
+ 
+    margin-left: 300px;
+  }
+  .theatre{
+    float:left;
+    margin-left:120px;
+  
+  }
+  .theatre select{
+  
+      width: 130px;
+      height: 28px;
+  }
+  .show{
+    
+    float:left;
+    margin-left:120px;
+  
+  }
+  
+
+  .show select{
+ 
+    width: 130px;
+    height: 28px;
+
+  }
+  .dates{
+    float:left;
+    margin-left:120px;
+  }
+  .dates input{
+    width:100px;
+    margin-left: 10px;
+  }
+  .sub-btn {
+    background-color: #4CAF50; /* Green */
+    float:left;
+    color: white;
+    padding: 8px 15px;
+    width: 120px;
+    margin-left:100px;
+
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+  
+  
+    font-size: 20px;
+  }
+
+
+
+
+  @media screen and (max-width:600px) {
+    .book{
+      height:700px;
+    }
+    .row-des{
+        max-width: 300px;
+        
+        font-size: 5px;
+        margin-top: 0px;
+     
+       
+        
+    }
+    .col-des{
+        float:none;
+        padding-left: 30px;
+      
+    }
+    .movieselect{
+        height: 600px;
+    }
+    .movname-des{
+        font-size: 25px;
+        color:blue;
+       
+        
+    }
+    .card-img-top{
+        height:230px;
+        width:200px;
+       
+
+    }
+    .property{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .form-des{
+      float: left;
+      /* padding-top: 20px; */
+      text-align: center;
+      margin-left: 200px;
+    }
+  
+    .theatre{
+      float:none;
+      text-align: center;
+     padding-top:20px;
+     padding-right: 100px;
+     margin-left: 40px;
+     margin-top: 20px;
+    
+    }
+    .theatre select{
+      width:130px;
+    }
+    .show{
+      
+      float:none;
+      text-align: center;
+      padding-top:20px;
+      margin-left: 40px;
+    
+    }
+    .show select{
+      margin-left: 40px;
+    }
+    .dates{
+      float:none;
+      text-align: center;
+      padding-top:20px;
+      margin-left: 15px;
+      margin-bottom: 20px;
+
+    }
+    .dates input{
+      width:150px;
+    }
+    .sub-btn{
+
+      margin-left: 200px;
+    }
+
+
+    
+}
+  
+
+
+
+  
+  @media screen and (min-width:600px) and (max-width:800px) {
+    .row-des{
+        max-width: 600px;
+        height: 500px;   
+        font-size: 5px;
+        margin-top: 0px;
+       
+    }
+    .col-des{
+        float:left;
+        text-align: center;
+        padding-left: 30px;
+      
+    }
+    .movieselect{
+        height: 500px;
+    }
+    .movname-des{
+        font-size: 30px;
+        text-align: center;
+        color:blue;
+    }
+    .card-img-top{
+        height:250px;
+        width:200px;
+    
+    }
+    .property{
+       text-align: center;
+    }
+    .form-des{
+      text-align: center;
+      margin-left: 80px;
+      padding-top: 20px;
+      float:left;
+ 
+  }
+    .form-group{
+      margin-top: 22px;
+      margin-left: 30px;
+    }
+    .movname-des{
+        color:darkslategray;
+    }
+    .theatre{
+      
+        float:left; 
+      
+        padding-top: 20px;
+        margin-left: 20px;
+        text-align: center; 
+     
+
+    }
+    .show{
+        float:left;
+        padding-top: 20px;
+        margin-left: 20px;
+        text-align: center;
+
+      
+
+    }
+    .dates{
+      float:left;
+      padding-top: 20px;
+      margin-left: 20px;
+      text-align: center;
+
+    }
+    .sub-btn{
+       display: inline-block;
+      margin-left: 230px; 
+      margin-top: 20px;
+      background-color:red;
+      
+      
+    }
+
+   
+
+
+
+    
+}
+
+
+@media screen  and (min-width:801px) and (max-width:1200px){
+    .property{
+        text-align: center;
+    }
+    .form-des{
+        text-align: center;
+        margin-left: 80px;
+        padding-top: 20px;
+        float:left;
+        height: 100px;
+   
+    }
+    .form-group{
+      /* margin-top: 22px; */
+      margin-left: 30px;
+    }
+    .movname-des{
+        color:darkslategray;
+    }
+    .theatre{
+      
+        float:left; 
+      
+        padding-top: 20px;
+        margin-left: 20px;
+        text-align: center; 
+     
+
+    }
+    .show{
+        float:left;
+        padding-top: 20px;
+        margin-left: 20px;
+        text-align: center;
+
+    }
+    .dates{
+      float:left;
+      padding-top: 20px;
+      margin-left: 25px;
+      text-align: center;
+
+    }
+    .sub-btn{
+       display: inline-block;
+      /* margin-left: 450px;  */
+      margin-top: 20px;
+     
+      
+    }
+    
+    
+}
+/* modify*/
+
+/* 
+
+.form-des{
+  float: left;
+  margin-left: 90px;
+}
+
+.show{
+  
+  float:left;
+  margin-left:100px; */
+
+/* } */
+.link{
+
+  text-align: center;
+  
+}
